@@ -1,6 +1,4 @@
-[JSON](http://json.org/) (the serialisation of data in javascript object notation) is an increasingly popular data format, largely because it is easy to parse (or, in the case of javascript, simply evaluate) into a data structure of the consumer's programming language of choice.
-
-This is a specification for a resource-centric serialisation of RDF in JSON. It aims to serialise RDF in a structure that is easy for developers to work with.
+This is a specification for a resource-centric serialisation of RDF in JSON. It aims to serialise RDF in a structure that is easy for developers to work with. More background can be found in the [RDF/JSON wiki](https://github.com/iand/rdf-json/wiki).
 
 # Syntax Specification
 
@@ -171,4 +169,4 @@ RDF/XML can be converted into the specified RDF/JSON format by using the http://
 If doing content-negotiation, respond to, and send the content-type as application/json. An empty graph (ie: no triples) should be served as an empty object: {}.
 
 # Historical Note
-The research behind this specification is available as [RDF JSON Brainstorming](RDF-JSON-Brainstorming)
+The research behind this specification is available as [RDF JSON Brainstorming](https://github.com/iand/rdf-json/wiki/RDF-JSON-Brainstorming)
