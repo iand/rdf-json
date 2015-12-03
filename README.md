@@ -160,9 +160,6 @@ Refer to http://json.org/ for definitions of terminology
            identifier of the subject and the value being the subject object created in the
            previous step
 
-# Further Examples
-
-RDF/XML can be converted into the specified RDF/JSON format by using the http://convert.test.talis.com web service.
 
 # Publishing RDF/JSON on the web
 
