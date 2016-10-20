@@ -25,15 +25,18 @@ For example, the following triple:
 
 can be encoded in RDF/JSON as:
 
+```json
     {
       "http://example.org/about" : 
         {
            "http://purl.org/dc/elements/1.1/title": [ { "type" : "literal" , "value" : "Anna's Homepage" } ]
         }
     }
+```
 
 Here is an example of the RDF JSON specification in the format of a JSON Schema. The latest version can also be found in the schema section of the SOAPjr.org site.
 
+```json
     {
          "version":"0.3.0",
          "id":"RDF-JSON",
@@ -78,6 +81,7 @@ Here is an example of the RDF JSON specification in the format of a JSON Schema.
          }
        }
     }
+```
 
 # Examples
 
@@ -106,6 +110,7 @@ The following RDF/XML:
 
 Can be represented as the following RDF/JSON structure:
 
+```json
     {
         "http://example.org/about" : {
             "http://purl.org/dc/elements/1.1/creator" : [ { "value" : "Anna Wilder", "type" : "literal" } ],
@@ -127,6 +132,7 @@ Can be represented as the following RDF/JSON structure:
             "http://xmlns.com/foaf/0.1/mbox_sha1sum"  : [ {  "value" : "69e31bbcf58d432950127593e292a55975bc66fd", "type" : "literal" } ] 
         }
     }
+```
 
 # Serialisation Algorithm
 
